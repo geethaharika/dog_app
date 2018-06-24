@@ -13472,7 +13472,12 @@ Epoch 00010: val_loss did not improve
 <h3 id="(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">(IMPLEMENTATION) Test Your Algorithm on Sample Images!<a class="anchor-link" href="#(IMPLEMENTATION)-Test-Your-Algorithm-on-Sample-Images!">&#182;</a></h3><p>Test your algorithm at least six images on your computer.  Feel free to use any images you like.  Use at least two human and two dog images.</p>
 <p><strong>Question 6:</strong> Is the output better than you expected :) ?  Or worse :( ?  Provide at least three possible points of improvement for your algorithm.</p>
 <p><strong>Answer:</strong> 
-The output is much better than what i really expected.The accuracy of the model can be improved by providing more data. Even if the model do accurate predictions it may not be same for all dog breeds.This can be made more accurate by providing more data.After several attempts i found one of the images category is changed.</p>
+The results are pretty good than expected. The accuracy of the model can be imroved by providing more data.</p>
+<ol>
+<li>t could be more accurate by training more with more images for the given breeds. More Breeds can be added The model prediction accuracy is not the same for all dog classes.</li>
+<li>Model can be made more accurate by adding more data During several runs of the algorithm, I found that the predicted dog category for one of the images changed.The algorithm is mostly able to fail on mixed breed dogs as it has equal argmax probability values.</li>
+<li>The face detector used in the algorithm could be more accurate on detecting faces as it sometimes misclassifies dog as humans,for example Percentage of the first 100 images in dog_files that detected human face is 11.0</li>
+</ol>
 
 </div>
 </div>
